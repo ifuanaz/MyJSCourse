@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>05</title>
+</head>
+<body>
+    <script>
+        // task 1
+        var a = 17, b = 10, c = null, d = 7, result = null;
+        c = a - b;
+        result = c + d;
+        alert(result);
+
+        // task 2
+        var str = 'abcde';
+        alert('cимвол: ' + str[0]);
+        alert('cимвол: ' + str[2]);
+        alert('cимвол: ' + str[str.length - 1]);
+
+        // task
+        var sec = 60, min = 60,  hour = 60, era = 24, month = 31;
+
+        var secondInHour = sec * min;
+        alert('секунд в годині: ' + secondInHour);
+
+        var secondInDate = secondInHour * era;
+        alert('секунд в добі: ' + secondInDate);
+
+        var secondInMonth = secondInDate * month;
+        alert('секунд в місяці: ' + secondInMonth);
+    </script>
+</body>
+</html>
