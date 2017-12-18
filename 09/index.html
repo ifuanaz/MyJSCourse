@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>08</title>
+    </head>
+    <body>
+        <script>
+            // Task 1
+            function f(n) {
+                return n **3;
+            }
+
+            // Task 2
+            function f2(a, b, c) {
+                var ab = a + b;
+                return ab / c;
+            }
+
+            // Task 3
+            function getDay(n) {
+                switch(n) {
+                    case 1:
+                        alert('Понеділок');
+                        break; 
+                    case 2:
+                        alert('Вівторок');
+                        break;
+                    case 3:
+                        alert('Середа');
+                        break;
+                    case 4:
+                        alert('Четверг');
+                        break;
+                    case 5:
+                        alert('Пятниця');
+                        break;
+                    case 6:
+                        alert('Субота');
+                        break;
+                    case 7:
+                        alert('Неділя');
+                        break;
+                    default:
+                        return alert('Ведіть число від 0 до 7!');
+
+                }
+            };
+
+            // Task 4
+            var getCurrentDay = function(n) {
+                switch(n) {
+                    case 1:
+                        alert('Понеділок');
+                        break; 
+                    case 2:
+                        alert('Вівторок');
+                        break;
+                    case 3:
+                        alert('Середа');
+                        break;
+                    case 4:
+                        alert('Четверг');
+                        break;
+                    case 5:
+                        alert('Пятниця');
+                        break;
+                    case 6:
+                        alert('Субота');
+                        break;
+                    case 7:
+                        alert('Неділя');
+                        break;
+                    default:
+                        return alert('Ведіть число від 0 до 7!');
+
+                }
+            };
+            // getCurrentDay(6);
+
+            // Task 5
+            function fact(n) {
+                if(n > 0) {
+                    return n = n * fact(n - 1);
+                }
+                else {
+                    return n;
+                }
+            }
+
+            alert( fact(4) );
+        </script>
+    </body>
+</html>
